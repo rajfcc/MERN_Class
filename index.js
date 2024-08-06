@@ -8,7 +8,6 @@ let data = []
 app.get('/',(req,res)=>{
     res.send(data)
 })
-sajbdka
 
 app.post('/',(req,res)=>{
     data.push(req.body)
